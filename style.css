@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Gobold-Regular';
+    src: local('./font/Gobold-Regular.otf') format('otf');
+}
+
+body {
+    background: #3C6EC6;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.row {
+    margin-bottom: 2%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav:not(.socials) li a {
+    font-family: 'Gobold-Regular', Arial, Helvetica, Lucida, sans-serif; 
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #ffe1bf!important;
+}
+
+.nav:not(.socials) .nav-item:not(:last-child) {
+    border-right: solid 5px black;
+}
+
+.active {
+    color: #f21031!important;
+}
+
+.socials {
+    background-color: #f21031!important;
+    margin-top: 1.5%;
+}
+
+.socials a {
+    font-size: 23px;
+    color: black!important;
+}
+
+i {
+    vertical-align: top;
+    color: black!important;
+}
